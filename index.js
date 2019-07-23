@@ -24,7 +24,7 @@ var array=[]
 if (katzDeliLine.length > 0){
   for (var i=1; i<=katzDeliLine.length; i++){
     array.push(" "+i+ ". " + katzDeliLine[i-1])
-    var temp = "The line is currently"+array+":"
+    var temp = "The line is currently:"+array
   }}
   
 else{
