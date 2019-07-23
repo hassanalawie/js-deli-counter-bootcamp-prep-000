@@ -10,7 +10,6 @@ function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0)
   {
     var temp = "Currently serving "+katzDeliLine[0]+"."
-    katzDeliLine.slice(1)
   }
   else
   {
