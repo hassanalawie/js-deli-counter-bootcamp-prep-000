@@ -16,7 +16,7 @@ function nowServing(katzDeliLine){
     temp="There is nobody waiting to be served!"
   }
 return temp
-return katzDeliLine.shift
+
 }
 
 function currentLine(katzDeliLine){
@@ -26,7 +26,7 @@ if (katzDeliLine.length > 0){
     array.push(i+ ". " + katzDeliLine[i-1])
   }}
 else{
-  array= "The line is currently empty"
+  array= "The line is currently empty."
 }
-  return array
+  return "The line is currently"+array
 }
