@@ -29,5 +29,5 @@ if (katzDeliLine.length > 0){
 else{
   array= "The line is currently empty."
 }
-  return "The line is currently: "+array
+  return "The line is currently:"+array
 }
