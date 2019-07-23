@@ -24,10 +24,12 @@ var array=[]
 if (katzDeliLine.length > 0){
   for (var i=1; i<=katzDeliLine.length; i++){
     array.push(" "+i+ ". " + katzDeliLine[i-1])
+    var temp = "The line is currently"+array+":"
   }}
   
 else{
   array= " empty."
+  temp = "The line is currently"+array;
 }
-  return "The line is currently"+array
+  return temp
 }
